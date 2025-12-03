@@ -1,0 +1,6 @@
+﻿:root { --bg: #1a0b2e; --pink: #ff00ff; --cyan: #00ffff; --light: #e0e0ff; }
+body { margin:0; background:var(--bg); color:var(--light); font-family:system-ui; }
+button { background:linear-gradient(45deg,var(--pink),var(--cyan)); border:none; padding:12px 24px; border-radius:8px; color:#000; font-weight:bold; cursor:pointer; }
+button:hover { transform:scale(1.05); box-shadow:0 0 20px var(--pink); }
+h1 { text-align:center; background:-webkit-linear-gradient(var(--pink),var(--cyan)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.canvas { border:2px solid #ff00ff44; border-radius:12px; box-shadow:0 0 30px #ff00ff44; margin:20px auto; display:block; }
